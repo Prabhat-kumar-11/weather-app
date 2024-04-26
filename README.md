@@ -26,4 +26,4 @@ This weather app utilizes the openweathermap API to fetch weather data.
 
 
 ## Screenshot
-![Weather App Screenshot](../weatherapp/src/assets/Screenshot%202024-04-26%20124631.png)
+![Weather App Screenshot](./weatherapp/src/assets/Screenshot%202024-04-26%20124631.png)
