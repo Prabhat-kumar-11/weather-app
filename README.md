@@ -21,8 +21,8 @@ This weather app utilizes the openweathermap API to fetch weather data.
 
 ## Run Locally
 1. Clone the project:git clone [repository-url]
-2. Install dependencies:npm install
-3. Start the development server:npm run dev
+2. Install dependencies:npm install.
+3. Start the development server:npm run dev.
 
 
 ## Screenshot
