@@ -5,14 +5,14 @@ import { BsEye, BsWater, BsThermometer, BsWind } from "react-icons/bs";
 
 export const WeatherCard = ({ icon, data, date, loading }) => {
   return (
-    <div className="w-full max-w-[450px] bg-black/20 min-h-[584px] text-white backdrop-blur-[32px] rounded-[32px] py-12 px-6">
+    <div className="w-full max-w-[450px] bg-black/20 text-white backdrop-blur-[32px] rounded-[32px] py-12 px-6">
       {loading ? (
         <div className="w-full h-full flex justify-center items-center">
           <ImSpinner8 className="text-5xl text-white animate-spin" />
         </div>
       ) : (
         <div>
-          <div className=" flex items-center gap-x-5">
+          <div className="flex items-center gap-x-5">
             <div className="text-[87px]">{icon}</div>
             <div>
               <div className="text-2xl font-semibold">
@@ -24,12 +24,12 @@ export const WeatherCard = ({ icon, data, date, loading }) => {
               </div>
             </div>
           </div>
-          <div className="my-20 ">
+          <div className="my-8">
             <div className="flex justify-center items-center">
-              <div className="text-[144px] leading-none font-light">
+              <div className="text-[64px] leading-none font-light">
                 {parseInt(data.main.temp)}
               </div>
-              <div className="text-4xl">
+              <div className="text-2xl">
                 <TbTemperatureCelsius />
               </div>
             </div>
@@ -60,7 +60,6 @@ export const WeatherCard = ({ icon, data, date, loading }) => {
                 </div>
               </div>
             </div>
-
             <div className="flex justify-between">
               <div className="flex items-center gap-x-2 ">
                 <div className="text-[20px] ">
